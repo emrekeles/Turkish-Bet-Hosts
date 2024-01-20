@@ -1,0 +1,13 @@
+{
+  "name": "Turkish-Bet-Hosts",
+  "description": "Turkish-Bet-Hostss.",
+  "homepage": "https://github.com/emrekeles/Turkish-Bet-Hosts",
+  "sources": [
+    {
+      "name": "Turkish-Bet-Hosts",
+      "source": "hosts",
+      "type": "hosts"
+    }
+  ],
+  "transformations": ["RemoveComments", "Deduplicate", "Compress", "Validate", "TrimLines", "InsertFinalNewLine"]
+}
